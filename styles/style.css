@@ -306,7 +306,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: 52px;
 }
 
@@ -317,11 +317,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
   text-align: left;
-  width: 220px;
+  flex-basis: 220px;
   padding: 40px;
   line-height: 1.5;
 }
